@@ -24,7 +24,7 @@ public class CreatureSpawnListener implements Listener {
                 int x = event.getEntity().getLocation().getBlockX();
                 int y = event.getEntity().getLocation().getBlockY();
                 int z = event.getEntity().getLocation().getBlockZ();
-                plugin.getLogger().info("CANCELED VILLAGE_INVASION SPAWN - " + name + ", uuid=" + uuid + ", l='" + world + "', x=" + x + ", y=" + y + ", z=" + z);
+                plugin.getLogger().info("Spawn canceled - type=" + name + ", uuid=" + uuid + ", l=" + world + ", x=" + x + ", y=" + y + ", z=" + z);
             }
         }
     }
