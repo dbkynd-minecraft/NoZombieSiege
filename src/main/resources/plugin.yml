@@ -3,5 +3,5 @@ version: ${project.version}
 main: com.dbkynd.nozombiesiege.NoZombieSiege
 api-version: '1.15'
 prefix: NoZombieSiege
-authors: [DBKynd]
+author: DBKynd
 description: Stop spawns from Villager Invasions (Zombie Siege)
